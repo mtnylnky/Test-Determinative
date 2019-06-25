@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="score">Skor</string>
+    <string name="frequency">Sıklık</string>
+    <string name="experimental">Deneysel</string>
+    <string name="correlational">Korelasyonel</string>
+    <string name="correlational_explanation">İki bağımsız değişken üzerinde test edilen skorların ilişkisi</string>
+    <string name="experimental_explanation">Grup ya da koşullar arasındaki farkın testi</string>
+    <string name="parametric">Parametrik</string>
+    <string name="nonparametric">Nonparametrik</string>
+    <string name="chi_square_harmony">Ki-kare uyum iyiliği testi</string>
+    <string name="chi_square_relation">Ki-kare ilişki testi</string>
+    <string name="pearsons_test">Pearson\'s r testi</string>
+    <string name="spearmans_test">Spearman\'s rho testi</string>
+    <string name="more_than_one_variable">Birden fazla bağımsız değişken</string>
+    <string name="an_independent_variable">Bağımsız bir değişken</string>
+    <string name="analysis_variance">Varyans analizi Tekrarlı - Karma - Bağımsız ölçümler</string>
+    <string name="independent_measure">Bağımsız ölçümler</string>
+    <string name="number_ques_group">Kaç grup var?</string>
+    <string name="repetive_measure">Tekrarlı ölçümler</string>
+    <string name="condition_ques">Kaç şart var?</string>
+    <string name="one">Bir</string>
+    <string name="two">İki</string>
+    <string name="three">Üç ve üzeri</string>
+    <string name="single_t_test">Tek örneklem t testi</string>
+    <string name="binominal_test">Binom testi</string>
+    <string name="independent_test">Bağımsız t testi</string>
+    <string name="mann_white">Mann-Whitney</string>
+    <string name="one_way_anova">Tek Yönlü Anova</string>
+    <string name="kruskall_wallis">Kruskal-Wallis</string>
+    <string name="repetive_test">Tekrarlı t testi</string>
+    <string name="willcoxon_test">Wilcoxon Testi</string>
+    <string name="oneway_repeated_anova">Tek yönlü tekrarlı anova</string>
+    <string name="friedman_test">Friedman testi</string>
+    <string name="rmi_measure">Varyans analizi</string>
+    <string name="app_about">İstatiksel analiz yaparken kullanacağınız test türünü belirleyin.</string>
+    <string name="data_type">Veri tipinizi seçiniz</string>
+    <string name="result_txt">Sonucunuz</string>
+    <string name="watch">İzle</string>
+    <string name="frequency_ques">Kaç tane bağımsız değişken var?</string>
+    <string name="score_ques">Araştırma yöntemini seçiniz</string>
+    <string name="swipe_watch">İzlemek için kaydırın</string>
+    <string name="rslt_info_vid">Testin uygulanması hakkında bilgi için</string>
+    <string name="slct_measure_type">Ölçüm tipini seçiniz</string>
+    <string name="app_name">SpssDeterminative</string>
+    <string name="rmi_mesa">Tekrarlı - Karma - Bağımsız</string>
+</resources>

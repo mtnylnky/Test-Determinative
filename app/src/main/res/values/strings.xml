@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SpssDeterminative</string>
+    <string name="app_about">Determine the type of test you will use when performing statistical analysis</string>
+    <string name="score">Score</string>
+    <string name="frequency">Frequency</string>
+    <string name="experimental">Experimental</string>
+    <string name="experimental_explanation">Test the difference between groups or conditions</string>
+    <string name="correlational">Correlational</string>
+    <string name="correlational_explanation">Relationship between scores tested on two independent variables</string>
+    <string name="parametric">Parametric</string>
+    <string name="nonparametric">Nonparametric</string>
+    <string name="more_than_one_variable">More than one independent variables</string>
+    <string name="an_independent_variable">One independent variable</string>
+    <string name="analysis_variance">Analysis of variance\nRepetitve - Mixed - Independent measurements</string>
+    <string name="independent_measure">Independent measurements</string>
+    <string name="number_ques_group">How many groups?</string>
+    <string name="repetive_measure">Repetitive measurements</string>
+    <string name="condition_ques">How many conditions?</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three and above</string>
+    <string name="data_type">Choose your data type</string>
+    <string name="result_txt">Your results</string>
+    <string name="watch">Watch</string>
+    <string name="frequency_ques">How many have independent variable?</string>
+    <string name="score_ques">Select the research method</string>
+    <string name="rslt_info_vid">For information on applying the test</string>
+    <string name="slct_measure_type">Select measurement type</string>
+    <string name="swipe_watch">Swipe  to watch</string>
+
+    <string name="chi_square_harmony">"Chi-square goodness of fit test "</string>
+    <string name="chi_square_relation">Chi-square relationship test</string>
+    <string name="pearsons_test">Pearson\'s r test</string>
+    <string name="spearmans_test">Spearman\'s rho test</string>
+    <string name="single_t_test">Single sample t test</string>
+    <string name="binominal_test">Binomial test</string>
+    <string name="independent_test">Independent t test</string>
+    <string name="mann_white">Mann-Whitney</string>
+    <string name="one_way_anova">One Way Anova</string>
+    <string name="kruskall_wallis">Kruskal-Wallis</string>
+    <string name="repetive_test">Repetitive t test</string>
+    <string name="willcoxon_test">Wilcoxon test</string>
+    <string name="oneway_repeated_anova">One-way repeated anova</string>
+    <string name="friedman_test">Friedman test</string>
+    <string name="rmi_measure">Analysis of variance</string>
+    <string name="rmi_mesa">Repetitive - Mixed - Independent</string>
+</resources>

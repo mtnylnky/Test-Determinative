@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#161A35"
+    tools:context=".TestResult">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/result_txt"
+            android:textSize="34sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/backhome"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:src="@drawable/ic_check_circle_black_24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/result_tst_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="#FFF"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/rslt_info_vid"
+            android:textColor="#FFF"
+            android:textSize="18sp"/>
+
+        <com.ebanx.swipebtn.SwipeButton
+            android:id="@+id/send_youtube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:inner_text="@string/swipe_watch"
+            app:inner_text_color="#FFF"
+            app:inner_text_size="20sp"
+            app:inner_text_top_padding="18dp"
+            app:inner_text_bottom_padding="18dp"
+            app:inner_text_background="@drawable/shape_rounded"
+            app:button_image_height="60dp"
+            app:button_image_width="60dp"
+            app:button_image_disabled="@drawable/ic_play_circle_filled_black_24dp"
+            app:button_image_enabled="@drawable/ic_play_circle_filled_black_24dp"
+            app:button_left_padding="10dp"
+            app:button_right_padding="10dp"
+            app:button_top_padding="10dp"
+            app:button_bottom_padding="10dp"
+            app:button_background="@drawable/shape_button"
+            app:initial_state="disabled"
+            app:has_activate_state="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
